@@ -116,6 +116,8 @@ void		process_img(t_data *data, t_scene *scene);
 // ray.c
 t_vec		ray_ex(t_ray *ray, double t);
 t_ray		ray(t_point3 origin, t_vec dir);
+// run_rt.c
+int         run_rt(char *filename);
 // sphere.c
 void		intersect_sp(t_ray ray, t_sphere *sp, t_point2 *t);
 t_point3	compute_sp_colour_light(t_sphere *sp, t_scene scene, t_vec p);

@@ -43,6 +43,7 @@ SRCS		=	./srcs/color.c \
 				./srcs/process_file.c \
 				./srcs/process_img.c \
 				./srcs/ray.c \
+				./srcs/run_rt.c \
 				./srcs/sphere.c \
 				./srcs/triangle.c \
 				./srcs/vectors1.c \
